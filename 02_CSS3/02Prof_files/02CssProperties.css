@@ -1,0 +1,132 @@
+/*                   Syntax                   */
+
+/* 
+selector{
+    property: value;
+}  */
+
+
+
+body{
+     background-image: url(bgi.jpg); /*image d'arrier plan */
+     background-size: cover;   
+}
+
+
+h2{
+    color: green;     /* text color */
+    text-align: center;
+    border: 5px dashed #6D9B34; /* rgb(255,167,170) or rgba(255,167,170,0.5)  a = 0<opacity<1 */
+    cursor: pointer;   /*chang cursor type*/
+}
+
+li{
+    list-style: none;  /* enlever les points des liste */
+    list-style-type: none; /*pour le style des points*/
+    display: inline-block;  /* inline the li liste :  default block*/
+}
+
+							/*TEXT  & FONT */
+p{
+    text-align: center;
+	text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 30px;  /*Space between lines*/
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px; /* or 80%; */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* from --> to  */
+
+    /* Custom a font-family 
+    1- downlad a font file & put in on your project
+    2- use google fonts :
+        * chose one 
+        * add it's link in the html Page
+        * add it on the css file font-family: my'X'font
+    */
+}
+
+
+	
+                    /* Image in CSS */
+
+footer{
+    clear: both; /*  pou Annuler L'option Float:left dans l'image */
+    text-align: center;
+}	
+
+
+
+                    /* BOX MODEL */
+.boxmodel{
+    border:5px solid red;
+    display:inline-block;
+
+    /* Padding : Size Inside the box */
+    padding: 20px; /*For all sides*/ 
+    /*padding; 5px 20px  5:for TOP & BUTTOM  , 20px for RIGHT & LEFT*/
+    /*padding; 5px 20px 5px 20px : top right buttom left*/
+    /*padding-left: 20px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px;*/
+
+    /* margin: : Size between the Other Elements*/
+    margin: 20px;  /*For all sides*/ 
+    /*margin; 5px 20px  5:for TOP & BUTTOM  , 20px for RIGHT & LEFT*/
+    /*margin; 5px 20px 5px 20px : top right buttom left*/
+    
+    width: 20px; /* For the Element not the box */
+    height: 20px; /* For the Element not the box */
+}  		
+
+
+
+
+                    /* PX vs EM */
+span{
+   font-size: 2em ; /* 2*TIMES of the PARENT Elemebnt */
+}		
+
+
+                    /* Flex BOX */
+					
+.container{
+   display: flex; /* Activate the FlexBox Option */
+   flex-wrap: wrap;  /* Activate element movment with page movment size : Responsive */
+   justify-content: center; /* Centrer Les Elements */
+}				
+
+
+
+					/* CSS 3 */
+
+/* Add Prefixes for Properties does not supported yed for a browser*/
+h1{
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 400px;
+    text-align: center; /* Centrer Le Text */
+    /* Add Prefixes for Properties does not supported yed for a browser*/
+    -moz-box-shadow: 4px 4px 5px #888888; /*CSS 3 prefix for Mozilla*/
+    -ms-box-shadow: 4px 4px 5px #888888; /*CSS 3 prefix for Internet Explorer*/
+    -webkit-box-shadow: 4px 4px 5px #888888; /*CSS 3 prefix for Safari & Chrom*/
+    -o-box-shadow: 4px 4px 5px #888888; /*CSS 3 prefix for Opera*/
+    
+    box-shadow: 4px 4px 5px #888888; /*CSS 3*/
+    margin-top: 10px;
+    
+}
+
+
+				/* Animation */
+				
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s; /*CSS 3 : delai de la transition pour all elements*/    
+}
+ /*CSS 3*/
+img:hover{
+    transform: scale(1.1); /* grandir l'image */
+}				

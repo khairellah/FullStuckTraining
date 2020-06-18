@@ -1,0 +1,67 @@
+/*                   Syntax                   */
+
+/* 
+selector{
+    property: value;
+}  */
+
+                    /* Text & Font */
+
+
+img{
+    float: left; /*or right */
+    width: 200px;
+    height: 200px;
+}
+p{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 25px;  /*Space between lines*/
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px; /* or 80%; */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* from --> to  */
+
+    /* Custom a font-family 
+    1- downlad a font file & put in on your project
+    2- use google fonts :
+        * chose one 
+        * add it's link in the html Page
+        * add it on the css file font-family: my'X'font
+    */
+}
+
+                    /* Image in CSS */
+
+footer{
+    clear: both; /*  pou Annuler L'option Float:left dans l'image */
+    text-align: center;
+}
+
+
+                    /* BOX MODEL */
+.boxmodel{
+    border:5px solid red;
+    display:inline-block;
+
+    /* Padding : Size Inside the box */
+    padding: 20px; /*For all sides*/ 
+    /*padding; 5px 20px  5:for TOP & BUTTOM  , 20px for RIGHT & LEFT*/
+    /*padding; 5px 20px 5px 20px : top right buttom left*/
+    /*padding-left: 20px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px;*/
+
+    /* margin: : Size between the Other Elements*/
+    margin: 20px;  /*For all sides*/ 
+    /*margin; 5px 20px  5:for TOP & BUTTOM  , 20px for RIGHT & LEFT*/
+    /*margin; 5px 20px 5px 20px : top right buttom left*/
+
+    width: 20px; /* For the Element not the box */
+    height: 20px; /* For the Element not the box */
+}                   
+
+
+                    /* PX vs EM */
+span{
+   font-size: 2em ; /* 2*TIMES of the PARENT Element */
+}

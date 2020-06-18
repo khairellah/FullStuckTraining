@@ -1,0 +1,22 @@
+*) var msg = "this is my new msg !";
+--> pour l'affichage : msg
+
+*) Pour de saisie : 
+--> var Detail = prompt("what is your name please ?");
+--> var nom = prompt("votre nom");
+--> var prenom = prompt("prenom");
+--> var nom = prompt("votre nom");
+--> var age = prompt("votre age");
+
+--> affichage : 
+                * nom
+                * number(age) --> caste String to number
+
+
+*) First Exercice : Calculat Sum (+) and soustraction (-)
+var number1 = prompt("your first number : ");
+var number2 = prompt("your second number : ");
+var sum = Number(number1) + Number(number2);
+var sous = Number(number1) - Number(number2);
+alert("Sum is :"+sum);
+alert("Sous is :"+sous);        

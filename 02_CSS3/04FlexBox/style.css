@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: flex; /* Activate the FlexBox Option */
+    flex-wrap: wrap;  /* Activate element movment with page movment size : Responsive */
+    justify-content: center; /* Centrer Les Elements */
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 400px;
+    text-align: center; /* Centrer Le Text */
+    /* Add Prefixes for Properties does not supported yed for a browser*/
+    -moz-box-shadow: 4px 4px 5px #888888; /*CSS 3 prefix for Mozilla*/
+    -ms-box-shadow: 4px 4px 5px #888888; /*CSS 3 prefix for Internet Explorer*/
+    -webkit-box-shadow: 4px 4px 5px #888888; /*CSS 3 prefix for Safari & Chrom*/
+    -o-box-shadow: 4px 4px 5px #888888; /*CSS 3 prefix for Opera*/
+    
+    box-shadow: 4px 4px 5px #888888; /*CSS 3*/
+    margin-top: 10px;
+    
+}
+
+
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s; /*CSS 3 : delai de la transition pour all elements*/    
+}
+ /*CSS 3*/
+img:hover{
+    transform: scale(1.1); /* grandir l'image */
+}

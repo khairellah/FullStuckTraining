@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(219, 219, 4); 
+}
+#header{
+border: 2px solid pink;
+text-align: center;
+height: 100px;
+}
+
+div#header  img{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+div#header ul{
+    float: right;
+}
+
+div#header ul li{
+    text-transform:uppercase;
+    list-style: none;
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+}
+
+#accueil{
+    text-decoration: underline;
+    color: red;
+}
+
+
+
+
+
+ #nav{
+    border: 2px solid pink;
+    text-align: center;
+    height: 200px;
+    width: 300;
+    background-image: url(pont.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 200px;
+
+
+    /*
+#main{
+    border: 2px solid pink;
+    text-align: center;
+    height: 100px;
+    width: 1300px;
+    float: left;
+}
+
+#side{
+    border: 2px solid pink;
+    text-align: center;
+    height: 100px;
+   
+}
+
+#footer{
+    clear: both;
+    border: 2px solid pink;
+    text-align: center;
+    height: 100px;
+} */
