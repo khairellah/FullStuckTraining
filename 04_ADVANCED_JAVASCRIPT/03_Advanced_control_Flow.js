@@ -11,7 +11,6 @@ console.log(answer); /* result  : "It's Valid ! " */
 
 var answer = isValid(false) ? "It's Valid ! " : "It's Not Valid !";
 console.log(answer); /* result  : "It's Not Valid !" */
-
 // Ex2
 var dynamiqueAnswer="Status of you account is : "+(isValid(true) ? "Active" : "Innactive!");
 console.log(dynamiqueAnswer); /* result  : Status of you account is : Active */
