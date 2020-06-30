@@ -34,4 +34,7 @@ class Wizard extends Player{
 
 
 const wizard1 = new Wizard("Adnan","Type1");
-const wizard1 = new Wizard("Zakaria","Type2");
+const wizard2 = new Wizard("Zakaria","Type2");
+
+wizard1.play();
+wizard2.introduce();
